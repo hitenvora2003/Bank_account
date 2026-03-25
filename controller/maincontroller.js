@@ -21,7 +21,7 @@ exports.getalldata = async (req, res) => {
                 status: 'success',
                 page,
                 limit,
-                Message: 'pagination successfully',
+                message: 'pagination successfully',
                 
                 totalUsers,
                 totalAccounts,
