@@ -14,5 +14,5 @@ const accountschema =  new mongoose.Schema({
        type : Number,
        required : [true,"please enter your bank_balance"]
     }
-})
+},{ timestamps: true })
 module.exports = mongoose.model('bank',accountschema)
